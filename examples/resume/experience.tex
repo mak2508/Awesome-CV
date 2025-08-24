@@ -17,12 +17,21 @@
     {May. 2025 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Provisioned an easily managable hybrid infrastructure(Amazon AWS + On-premise) utilizing IaC(Infrastructure as Code) tools like Ansible, Packer and Terraform.}
-        \item {Built fully automated CI/CD pipelines on CircleCI for containerized applications using Docker, AWS ECR and Rancher.}
-        \item {Designed an overall service architecture and pipelines of the Machine Learning based Fashion Tagging API SaaS product with the micro-services architecture.}
-        \item {Implemented several API microservices in Node.js Koa and in the serverless AWS Lambda functions.}
-        \item {Deployed a centralized logging environment(ELK, Filebeat, CloudWatch, S3) which gather log data from docker containers and AWS resources.}
-        \item {Deployed a centralized monitoring environment(Grafana, InfluxDB, CollectD) which gather system metrics as well as docker run-time metrics.}
+        \item {Investigating aggressive model compression for on-premise deployment of custom LLMs for clients.}
+        \item {Finetuned a llama 7B model with ternary quantization while minimizing loss in performance through the
+        use of few carefully selected full-precision weights.}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Software Engineer (Part-time)} % Job title
+    {IVIA Lab - ETH Zürich} % Organization
+    {Zürich, Switzerland} % Location
+    {Aug. 2024 - May 2025} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Set up FastAPI backend and Azure pipelines for a system to connect students with industry partners for thesis/internships.}
+        \item {Enabled authentication and authorization including SSO for ETH users through Keycloak integration.}
       \end{cvitems}
     }
 
@@ -33,36 +42,27 @@
     {Doha, Qatar} % Location
     {Oct. 2021 - Sep. 2023} % Date(s)
     {
-      \vspace{-4.0mm}
-      \begin{justify}
-      \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
-        \setlength{\parskip}{0pt}
+      \begin{cvitems}
+        \item {Built MVP solutions for various commercialization efforts of research projects at QCRI.}
+        \item {Mentored and managed 6 interns.}
         \renewcommand{\labelitemi}{}
-        \item {\hspace{-3.0mm}\underline{{Allama}}}
+        \item {\hspace{-3.0mm}\underline{{\href{https://allama.qcri.org}{Allama}}} - GPT based chatbot using Langchain on Qatar ministry data}
         \renewcommand{\labelitemi}{\bullet}
-        \item {Set up a pipeline to automatically crawl, parse and embed data to keep chatbot up to date.}
-        \item {Set up CI/CD using Azure Pipelines and Docker Swarm.}
-        \item {Developed miscellaneous front-end features with Angular.}
+        \item {Set up a pipeline to automatically crawl, parse, embed, and populate data into vector DB to keep chatbot up to date.}
+        \item {Configured CI/CD using Azure Pipelines and Docker Swarm.}
         \renewcommand{\labelitemi}{}
-        \item {\hspace{-3.0mm}\underline{{JUDO}}}
-        \renewcommand{\labelitemi}{\bullet}
-        \item {Set up web-based visualization of SUMO simulations, including various performance improvements such as visual clustering
-        of vehicles, frame dropping, and intelligent memory management to avoid buffering.}
-        \item {Dockerized QarSUMO and created an API to access it to ease deployment and scalability.}
+        \item {\hspace{-3.0mm} \underline{{\href{https://judo.qcri.org}{JUDO}}} - Web-based interactive traffic microsimulation based on SUMO}
+        \renewcommand{\labelitemi}{\bullet}1
+        \item {Built web-based visualization of SUMO simulations, including various performance critical features such as visual clustering
+        of vehicles, frame dropping, and intelligent memory management to avoid buffering, achieving smooth 30fps with over 1 million vehicles.}
+        \item {Dockerized \underline{\href{https://github.com/qcri/qarsumo}{QarSUMO}} and created an API to access it to ease deployment and scalability.}
         \renewcommand{\labelitemi}{}
-        \item {\hspace{-3.0mm}\underline{{SIHA}}}
+        \item {\hspace{-3.0mm}\underline{{\href{https://siha.qcri.org}{SIHA}}} - platform to extract, unify, and provide health data from various wearable devices}
         \renewcommand{\labelitemi}{\bullet}
-        \item {Refactored stale flutter code for SIHA mobile app, including migration to null-safety and BLOC architecture pattern.}
-        \item {Developed new Team Competitions feature, which included the design of DB models, implementation of Flutter screens,
-        API endpoints, and background services to log leaderboards and update user points when a competition ends.}
-        \item {Implemented a YAML specification for TASRIF that converts YAML to python code to make TASRIF more accessible to users
-        with less coding familiarity.}
-        \item {Created an on-premise deployment script for SIHA that pulls all the relevant images from MS azure. This removes the need
-        to manually pull images and leaves no sensitive code at the deployment site.}
-        \item {Mentored 2 batches of interns over a 3 month period each.}
-      \end{itemize}
-      \end{justify}
-      \vspace{1.0mm}
+        \item {Took ownership of the SIHA mobile app, migrating it to null-safety and BLOC architecture pattern, and developed new Team Competitions feature.}
+        \item {Implemented a YAML interface for \underline{\href{https://github.com/qcri/tasrif}{TASRIF}}, an open-source tool for processing time-series data.}
+        \item {Created an on-premise deployment script for SIHA that pulls all the relevant images from MS azure, allowing deployment without loading sensitive code.}
+      \end{cvitems}
     }
 
 %---------------------------------------------------------
@@ -73,9 +73,9 @@
     {Dec. 2020 - June. 2021} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Created an admin dashboard for managing restaurants and menus using React and NodeJS.}
-        \item {Added features and bug fixes on the the mobile app using React Native.}
-        \item {Created indexes in MongoDB to optimize DB queries.}
+        \item {Built an admin dashboard for managing restaurants and menus using React and NodeJS to streamline previously manual processes, removing developer interventions entirely.}
+        \item {A/B tested and implemented group ordering and chat based ordering features.}
+        \item {Created indexes in MongoDB to optimize DB queries, reducing query times by 12x.}
       \end{cvitems}
     }
 
